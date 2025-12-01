@@ -1,0 +1,15 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+*.tfvars.json
+terraform.tfvars
+.terraform.lock.hcl
+
+# Docker
+.env
+docker-compose.override.yml
+
+*.pem
