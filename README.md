@@ -15,7 +15,7 @@ terraform apply
 
 You should now have a VPC, and an ec2 instance running with docker dependencies pre-installed.
 
-Next we will be using command `docker --host` to transfer the docker-swarm configuration onto the ec2 instance that we just created. Before we do that we would need to setup ssh communication between docker and ec2 instance.
+Next we will be using command `docker --host` to transfer the docker-swarm configuration onto the ec2 instance that we just created. Before we do that we would need to setup ssh communication between docker and ec2 instance. Edit the file *~/.ssh/config*
 ```
 Host ec2-docker
     HostName ["Your EC2 public IP]

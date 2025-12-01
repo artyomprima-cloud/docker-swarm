@@ -9,4 +9,4 @@ amazon-linux-extras install docker -y || yum install docker -y
 systemctl enable docker
 systemctl start docker
 
-sudo usermod -aG docker ec2-user
+usermod -aG docker ec2-user
